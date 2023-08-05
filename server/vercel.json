@@ -1,14 +1,16 @@
 {
+    "version": 1,
+    "name": "socketing",
     "builds":[
         {
-            "src":"./app.js",
+            "src":"index.js",
             "use":"@vercel/node"
         }
     ],
     "routes":[
         {
             "src":"/(.*)",
-            "dest":"app.js"
+            "dest":"/index.js"
         }
     ]
 }
