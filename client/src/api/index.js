@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = axios.create({ baseURL: "http://localhost:5000" });
+const API = axios.create({ baseURL: "https://snapdiary-backend-tw0a.onrender.com/" });
 
 API.interceptors.request.use((req) => {
   if (localStorage.getItem("profile")) {
@@ -12,7 +12,6 @@ API.interceptors.request.use((req) => {
   return req;
 });
 
-//const url = "https://memories-sm-project.herokuapp.com/posts";
 
 export const fetchPosts = () => API.get("/posts");
 export const createPost = (newPost) => API.post("/posts", newPost);
