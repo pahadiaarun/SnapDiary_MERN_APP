@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "name": "socketing",
+    "name": "backend",
     "builds":[
         {
             "src":"index.js",
