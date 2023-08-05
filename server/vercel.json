@@ -1,6 +1,6 @@
 {
     "version": 2,
-    "framework": "node",
+    "framework": "node.js",
     "name": "backend",
     "builds":[
         {
