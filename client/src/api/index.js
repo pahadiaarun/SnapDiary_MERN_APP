@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API = axios.create({ baseURL: "https://snapdiary-backend-tw0a.onrender.com/" });
+const API = axios.create({ baseURL: "https://snapdiary-backend-tw0a.onrender.com" });
 
 API.interceptors.request.use((req) => {
   if (localStorage.getItem("profile")) {
