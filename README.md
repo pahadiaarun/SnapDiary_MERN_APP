@@ -141,11 +141,6 @@ $ npm start (for React client side development)
 - Axios : Promise based HTTP client for the browser and node.js.
 - Material UI : Material-UI is simply a library that allows us to import and use different components to create a user interface in our React Js.
 
-#### Alternatives to technology used
-- React Js can be replaced by others popular fronted framework like Vue,Angular,Svelte or Ember
-- Node Js can be  replaced by Deno/koa , flask/Django
-- Mongodb can be replaced by SQL type DB
-- Material UI can be replaced  by BootStrap
 
 # Author
 
