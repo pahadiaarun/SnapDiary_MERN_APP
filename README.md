@@ -1,6 +1,6 @@
 <h1 align="center">  &nbsp; SnapDiary  </h1>
 
-  <img src=./client/src/images/memories.png>
+  <img src=./client/src/images/memories.png width="200"/>
 
 <h1></h1>
 
